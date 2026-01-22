@@ -9,13 +9,11 @@ const DigitalDelivery = () => {
   ];
 
   return (
-    <section className="section-padding bg-soft-green">
+    <section className="section-padding bg-cream">
       <div className="container-custom">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <span className="inline-block px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-4">
-              100% Digital
-            </span>
+         
             
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
               100% Digital Care Platform

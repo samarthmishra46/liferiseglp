@@ -40,7 +40,7 @@ const WhoIsItForSection = () => {
                 className="flex items-start gap-3 p-5 rounded-2xl bg-primary-foreground/10 backdrop-blur-sm text-left transition-transform hover:-translate-y-1"
               >
                 <div className="flex-shrink-0 w-8 h-8 rounded-full bg-coral flex items-center justify-center">
-                  <CheckCircle2 size={18} className="text-primary-foreground" />
+                  <CheckCircle2 size={18} className="text-[#000000]" />
                 </div>
                 <p className="text-primary-foreground font-medium">{item}</p>
               </div>
