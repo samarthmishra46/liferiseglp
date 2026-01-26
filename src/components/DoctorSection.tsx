@@ -19,7 +19,7 @@ const DoctorSection = () => {
     },
     {
       icon: <Users className="text-primary" size={24} />,
-      title: "5000+ Clients",
+      title: "5000+ Clients Transformed In Last Batch",
       description: "Successfully transformed thousands of lives",
     },
   ];
@@ -75,6 +75,22 @@ const DoctorSection = () => {
               Founder & Chief Dietitian, LIFE RISE
             </p>
             
+            <div className="grid grid-cols-2 gap-2 sm:gap-4">
+              {credentials.map((credential, index) => (
+                <div
+                  key={index}
+                  className="p-2 sm:p-4 rounded-lg sm:rounded-xl bg-card border border-border/50 hover:border-primary/30 transition-colors"
+                >
+                  <div className="w-6 h-6 sm:w-10 sm:h-10 rounded-md sm:rounded-lg bg-soft-green flex items-center justify-center mb-1 sm:mb-3">
+                    <span className="scale-50 sm:scale-100">{credential.icon}</span>
+                  </div>
+                  <h3 className="font-semibold text-foreground text-xs sm:text-base mb-0.5 sm:mb-1">{credential.title}</h3>
+                  <p className="text-xs sm:text-sm text-muted-foreground hidden sm:block">{credential.description}</p>
+                </div>
+              ))}
+            </div> 
+
+            <br />
             <p className="text-sm sm:text-base lg:text-lg text-muted-foreground mb-2 sm:mb-6 hidden sm:block">
               With over <strong className="text-foreground">18 years of dedicated experience</strong> in clinical nutrition and metabolic health, 
               DT Prathibha M has helped thousands of individuals achieve sustainable weight loss and improved health outcomes.
@@ -95,20 +111,7 @@ const DoctorSection = () => {
               With <strong className="text-foreground">18+ years of experience</strong>, DT Prathibha M leads a multidisciplinary team delivering comprehensive 360° care.
             </p>
 
-            <div className="grid grid-cols-2 gap-2 sm:gap-4">
-              {credentials.map((credential, index) => (
-                <div
-                  key={index}
-                  className="p-2 sm:p-4 rounded-lg sm:rounded-xl bg-card border border-border/50 hover:border-primary/30 transition-colors"
-                >
-                  <div className="w-6 h-6 sm:w-10 sm:h-10 rounded-md sm:rounded-lg bg-soft-green flex items-center justify-center mb-1 sm:mb-3">
-                    <span className="scale-50 sm:scale-100">{credential.icon}</span>
-                  </div>
-                  <h3 className="font-semibold text-foreground text-xs sm:text-base mb-0.5 sm:mb-1">{credential.title}</h3>
-                  <p className="text-xs sm:text-sm text-muted-foreground hidden sm:block">{credential.description}</p>
-                </div>
-              ))}
-            </div>
+            
           </div>
         </div>
       </div>

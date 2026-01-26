@@ -33,20 +33,34 @@ const WhyItWorks = () => {
     <section className="section-padding bg-cream">
       <div className="container-custom">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Image */}
-          <div className="relative">
-            <div className="aspect-square max-w-lg mx-auto">
-              <img
-                src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=600&fit=crop"
-                alt="Wellness and balance"
-                className="w-full h-full object-cover rounded-3xl shadow-lg"
-              />
-              
-              {/* Stats Card */}
-              <div className="absolute -bottom-6 -right-6 bg-card p-6 rounded-2xl shadow-lg">
-                <p className="text-4xl font-serif font-bold text-primary mb-1">97%</p>
-                <p className="text-sm text-muted-foreground">Adherence Rate</p>
+          {/* Before & After Images */}
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center relative">
+            {/* Before Image */}
+            <div className="flex flex-col items-center">
+              <div className="aspect-[3/4] w-48 sm:w-56 md:w-64 rounded-3xl overflow-hidden shadow-lg">
+                <img
+                  src="https://res.cloudinary.com/dvxqb1wge/image/upload/v1769469088/before_transformation_czhvhe.png?w=400&h=600"
+                  alt="Before wellness transformation"
+                  className="w-full h-full object-cover"
+                />
               </div>
+              <span className="mt-2 text-sm font-medium text-muted-foreground">Before</span>
+            </div>
+            {/* After Image */}
+            <div className="flex flex-col items-center">
+              <div className="aspect-[3/4] w-48 sm:w-56 md:w-64 rounded-3xl overflow-hidden shadow-lg">
+                <img
+                  src="https://res.cloudinary.com/dvxqb1wge/image/upload/v1769469075/Gemini_Generated_Image_apgwv8apgwv8apgw_ughsnl.png"
+                  alt="After wellness transformation"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <span className="mt-2 text-sm font-medium text-primary">After</span>
+            </div>
+            {/* Stats Card */}
+            <div className="absolute -bottom-6 right-0 bg-card p-1 rounded-2xl shadow-lg hidden sm:block">
+              <p className="text-4xl font-serif font-bold text-primary mb-1">97%</p>
+              <p className="text-sm text-muted-foreground">Adherence Rate</p>
             </div>
           </div>
 

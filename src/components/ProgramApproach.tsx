@@ -58,7 +58,7 @@ const ProgramApproach = () => {
           </span>
           
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-            Our 360° Scientific Approach
+            Our Scientific Approach
           </h2>
           
           <p className="text-lg text-muted-foreground">

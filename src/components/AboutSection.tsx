@@ -14,7 +14,7 @@ const AboutSection = () => {
     },
     {
       icon: <Heart className="text-primary" size={28} />,
-      title: "360° Approach",
+      title: "  Approach",
       description: "Complete integration of nutrition, fitness, and lifestyle correction.",
     },
     {
@@ -35,11 +35,11 @@ const AboutSection = () => {
             </span>
             
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-6">
-              What is Young After 40 – 360° GLP Program?
+              What is Young After 40 –   GLP Program?
             </h2>
             
             <p className="text-lg text-muted-foreground mb-6">
-              Young After 40 – 360° GLP Program is a holistic, 100% digital wellness and weight management 
+              Young After 40 –   GLP Program is a holistic, 100% digital wellness and weight management 
               program by <strong className="text-foreground">LIFE RISE</strong>, designed specifically for individuals 
               above 40 who want to regain their energy, strength, confidence, and vitality - scientifically and safely.
             </p>
@@ -75,30 +75,28 @@ const AboutSection = () => {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-4">
                 <img
-                  src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=400&h=300&fit=crop"
+                  src="https://res.cloudinary.com/dvxqb1wge/image/upload/v1769469074/MAN_RUNNING_nrrbp5.png"
                   alt="Active lifestyle"
                   className="w-full rounded-2xl shadow-md"
                 />
-                <img
-                  src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop"
-                  alt="Fitness training"
-                  className="w-full rounded-2xl shadow-md"
-                />
+                
               </div>
               <div className="space-y-4 pt-8">
                 <img
-                  src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&h=400&fit=crop"
+                  src="https://res.cloudinary.com/dvxqb1wge/image/upload/v1769469075/Gemini_Generated_Image_apgwv8apgwv8apgw_ughsnl.png"
                   alt="Medical consultation"
                   className="w-full rounded-2xl shadow-md"
                 />
-                <img
-                  src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=300&fit=crop"
+                
+              </div>
+              
+            </div>
+            <br />
+            <img
+                  src="https://res.cloudinary.com/dvxqb1wge/image/upload/v1769469067/MAN_WORKOUT_OUTSIDE_fyhdzf.png"
                   alt="Yoga and wellness"
                   className="w-full rounded-2xl shadow-md"
                 />
-              </div>
-            </div>
-            
             {/* Decorative Element */}
             <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-primary/10 rounded-full blur-3xl" />
           </div>

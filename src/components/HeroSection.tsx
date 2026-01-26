@@ -26,7 +26,7 @@ const HeroSection = () => {
 
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6 animate-fade-up stagger-1">
               Feel Young Even After 40
-              <span className="block text-gradient-primary">360° GLP Program</span>
+              <span className="block text-gradient-primary"> GLP Program</span>
             </h1>
 
             <div className="flex flex-wrap gap-3 justify-center lg:justify-start mb-8 animate-fade-up stagger-2">
@@ -83,7 +83,7 @@ const HeroSection = () => {
               <div className="absolute inset-0 bg-primary/10 rounded-3xl transform rotate-3" />
               <div className="absolute inset-0 bg-primary/5 rounded-3xl transform -rotate-3" />
               <img
-                src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=750&fit=crop&crop=faces"
+                src="https://res.cloudinary.com/dvxqb1wge/image/upload/v1769469082/MAN_LEADING_FAMILY_3_a8ucyv.png"
                 alt="Active lifestyle after 40"
                 className="relative w-full h-full object-cover rounded-3xl shadow-lg"
               />

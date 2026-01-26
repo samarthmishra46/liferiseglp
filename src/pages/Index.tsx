@@ -19,7 +19,7 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
-        <VideoCarousel />
+    {/* <VideoCarousel /> */}
         <AboutSection />
         <DoctorSection />
         <WhoIsItForSection />
