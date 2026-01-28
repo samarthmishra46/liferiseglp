@@ -83,7 +83,7 @@ const HeroSection = () => {
               <div className="absolute inset-0 bg-primary/10 rounded-3xl transform rotate-3" />
               <div className="absolute inset-0 bg-primary/5 rounded-3xl transform -rotate-3" />
               <img
-                src="https://res.cloudinary.com/dvxqb1wge/image/upload/v1769469082/MAN_LEADING_FAMILY_3_a8ucyv.png"
+                src="https://res.cloudinary.com/dix4pzu0k/image/upload/v1769579483/image_pypqej.png"
                 alt="Active lifestyle after 40"
                 className="relative w-full h-full object-cover rounded-3xl shadow-lg"
               />

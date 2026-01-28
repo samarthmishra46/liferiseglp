@@ -27,35 +27,9 @@ const DoctorSection = () => {
   return (
     <section id="doctor" className="section-padding bg-background">
       <div className="container-custom">
-        <div className="grid grid-cols-2 gap-4 sm:gap-8 lg:gap-16 items-center">
+        <div className="pr-12 pl-12 lg:pr-15 lg:pl-15 items-center">
           {/* Image - Left Side */}
           <div className="relative">
-            <div className="grid grid-cols-5 gap-2 sm:gap-4">
-              <div className="col-span-2 space-y-2 sm:space-y-4 pt-8 sm:pt-16">
-                <img
-                  src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=250&fit=crop"
-                  alt="Medical consultation"
-                  className="w-full h-16 sm:h-24 lg:h-32 object-cover rounded-xl sm:rounded-2xl shadow-md"
-                />
-                <img
-                  src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=300&h=250&fit=crop"
-                  alt="Health coaching"
-                  className="w-full h-16 sm:h-24 lg:h-32 object-cover rounded-xl sm:rounded-2xl shadow-md"
-                />
-                <img
-                  src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=250&fit=crop"
-                  alt="Wellness journey"
-                  className="w-full h-16 sm:h-24 lg:h-32 object-cover rounded-xl sm:rounded-2xl shadow-md"
-                />
-              </div>
-              <div className="col-span-3 space-y-2 sm:space-y-4">
-                <img
-                  src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400&h=500&fit=crop"
-                  alt="DT Prathibha M"
-                  className="w-full h-[200px] sm:h-[320px] lg:h-[420px] object-cover rounded-xl sm:rounded-2xl shadow-md"
-                />
-              </div>
-            </div>
             
             {/* Decorative Element */}
             <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 sm:w-60 lg:w-80 h-40 sm:h-60 lg:h-80 bg-primary/10 rounded-full blur-3xl" />
